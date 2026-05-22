@@ -18,3 +18,15 @@ buscador.addEventListener("keyup", () => {
     });
 
 });
+
+const botonesComprar = document.querySelectorAll(".comprar-btn");
+
+botonesComprar.forEach(boton => {
+
+    boton.addEventListener("click", () => {
+
+        alert("Producto agregado al carrito");
+
+    });
+
+});

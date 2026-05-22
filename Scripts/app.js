@@ -30,3 +30,26 @@ botonesComprar.forEach(boton => {
     });
 
 });
+
+const formulario = document.getElementById("formularioContacto");
+
+formulario.addEventListener("submit", (e) => {
+
+    e.preventDefault();
+
+    const nombre = document.getElementById("nombre").value;
+    const correo = document.getElementById("correo").value;
+    const mensaje = document.getElementById("mensaje").value;
+
+    if(nombre === "" || correo === "" || mensaje === ""){
+
+        alert("Todos los campos son obligatorios");
+
+    } else {
+
+        alert("Mensaje enviado correctamente");
+        formulario.reset();
+
+    }
+
+});

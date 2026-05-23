@@ -26,3 +26,23 @@
 .txt-marron{
     color:#7a7a7a
 }
+
+.dark-mode{
+    background-color:#1e1e1e !important;
+    color:white !important;
+}
+
+.dark-mode .card{
+    background-color:#2c2c2c;
+    color:white;
+}
+
+.dark-mode .Bg-ff{
+    background-color:#2c2c2c;
+}
+
+.dark-mode input,
+.dark-mode textarea{
+    background-color:#444;
+    color:white;
+}

@@ -53,3 +53,11 @@ formulario.addEventListener("submit", (e) => {
     }
 
 });
+
+const modoOscuroBtn = document.getElementById("modoOscuroBtn");
+
+modoOscuroBtn.addEventListener("click", () => {
+
+    document.body.classList.toggle("dark-mode");
+
+});
